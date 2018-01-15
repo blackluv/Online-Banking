@@ -1,0 +1,448 @@
+/*Before Login*/
+
+body{
+	font-family: helvetica;
+	/*font-size: 15px;*/
+	/*line-height: 1.5px;*/
+	background-color: #f4f4f4;
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*Header Starts*/
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 3px solid red;
+}
+
+header li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+header #title{
+	float: left;
+}
+
+header nav{
+	float: right;
+}
+
+header #title h1{
+	margin: 0;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+header .current a{
+	color: red;
+	font-weight: bold;
+}
+
+#spn{
+	color: red;
+	font-weight: bold;
+}
+/*Header Ends*/
+
+/*Login-Section Starts*/
+#login{
+	width: 390px;
+	float: left;
+	/*padding-left: 100px;*/
+	margin-left: 100px; 
+	/*border: 2px solid black;*/
+	padding: 20px;
+	background-color: #e6e6e6;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	/*border-radius: 10px;*/
+
+}
+
+#login-section{
+	font-size: 20px;
+	min-height: 320px;
+	border-bottom: 3px solid red;
+}
+
+#login-section table{
+	width: 400px;
+	margin-left: 30px;
+}
+
+#button1{
+	height: 50px;
+	background: red;
+	border: 0;
+	width: 110px;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	border-radius: 5px;
+	margin-left: 110px;
+	cursor: pointer;
+}
+
+section h2 img{
+	width: 30px;
+	border: none;
+}
+
+/*#getDown{
+	margin-top: 5px;
+}*/
+
+#help{
+	float: right;
+	width: 290px;
+	margin-right: 120px;
+	background-color: #e6e6e6;
+	/*border-radius: 10px;*/
+	padding: 20px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+#login-section a{
+	text-decoration: none;
+}
+
+#login-section a:hover{
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+}
+/*Login-Section Ends*/
+
+/*Last-Section starts*/
+#lastSection{
+	background-color: #35424a;
+	color: #ffffff;
+	min-height: 250px;
+}
+
+#lastDiv{
+	/*margin-top: 15px;*/
+	padding: 25px;
+	font-size: 17px;
+}
+
+#lastDiv li{
+	padding: 6px;
+}
+/*Last-Section Ends*/
+
+/*Footer*/
+footer{
+	background-color: red;
+	min-height: 70px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+footer p{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+}
+/*Footer Ends*/
+
+/*After Login*/
+
+/*Personal details page starts*/
+
+/*Navigation bar starts*/ 
+.navbar{
+	background-color: #35424a;
+	border-bottom: 3px solid red;
+}
+
+.navbar ul{
+	/*padding: 0;
+	margin: 0;*/
+	padding-left: 8px;
+	padding-right: 0;
+}
+
+.navbar li{
+	display: inline;
+	padding: 0 18px 0 18px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+
+}
+
+.navbar a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+.navbar .current a{
+	color: red;
+	font-weight: bold;
+}
+/*Navigation bar ends*/
+
+/*Main Page Starts*/
+#div1{
+	float: left;
+	min-width: 30%;
+	/*min-height: 100px;*/
+	border: 2px solid black;
+	background-color: #35424a;
+	color: #ffffff;
+	margin-left: 100px;
+}
+
+#div2{
+	float: right;
+	min-width: 30%;
+	/*min-height: 100px;*/
+	border: 2px solid black;
+	background-color: #35424a;
+	color: #ffffff;
+	margin-right: 100px;
+}
+
+.jfp{
+	padding: 20px 20px 20px 20px;
+}
+/*Main Page Ends*/
+
+/*Features and About Us*/
+.container .random{
+	border: 3px solid #2E4372;
+	margin-top: 20px;
+	padding: 20px;
+	background: #e6e6e6;
+	border-radius: 10px;
+}
+
+.container .random li{
+	padding: 10px;
+}
+
+/*Admin Login Page*/
+
+#loginAdmin{
+	width: 390px;
+	margin: auto;
+	/*padding-left: 100px;*/
+	
+	/*border: 2px solid black;*/
+	padding: 20px;
+	background-color: #e6e6e6;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+
+#login-section-admin{
+	font-size: 20px;
+	min-height: 320px;
+}
+
+#login-section-admin table{
+	width: 400px;
+	margin-left: 30px;
+}
+
+/*Admin Homepage*/
+#box{
+	margin: auto;
+	width: 350px;
+	background-color: #35424a;
+	color: #ffffff;	
+	padding: 30px;
+	font-size: 55px;
+}
+
+#box a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#box a:hover{
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*transfer funds*/
+
+#transfer{
+	background-color: #e6e6e6;
+	padding: 20px;
+	margin: auto;
+	width: 500px;
+}
+
+#transfer table{
+	margin: auto;
+	width: 400px;
+}
+
+/*add customer*/
+
+#add{
+	width: 700px;
+	padding: 25px;
+	background-color: #e6e6e6;
+	border-radius: 10px;
+	margin: auto;
+}
+
+#add table{
+	width: 500px;
+	margin: auto;
+}
+
+#add table tr{
+	padding: 10px;
+}
+
+#Benificiary{
+	background-color: #e6e6e6;
+	width: 500px;
+	margin: auto;
+}
+
+#Benificiary table{
+	margin: auto;
+}
+
+/*Mini Statements*/
+#mini{
+}
+
+/*Change Password*/
+#chng{
+	width: 500px;
+	background-color: #e6e6e6;
+	margin: auto;
+}
+
+#chng table{
+	margin: auto;
+}
+
+/*Approve Requests*/
+#issue_box{
+	margin: auto;
+	background-color: #35424a;
+	width: 400px;
+	color: #ffffff;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	padding: 25px;
+	text-align: center;
+	font-size: 27px;
+}
+
+#issue_box a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#issue_box a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+.atm_issue_table .container .issueTable{
+	text-align: center;
+	margin: auto;
+	border: 2px solid black;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	background-color: #e6e6e6;
+}
+
+.atm_issue_table .container .issueTable th{
+	border: 2px solid black;
+}
+
+.atm_issue_table .container .issueTable td{
+	border: 2px solid black;
+}
+.atm_issue_table .container .issueTable tr{
+	border: 2px solid black;
+}
+
+.BTN{
+	color: #ffffff;
+	background-color: red;
+	height: 50px;
+	width: 120px;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.BTN1{
+	color: #ffffff;
+	background-color: red;
+	height: 40px;
+	width: 80px;
+	border-radius: 3px;
+	border: 0;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.BTN2{
+	color: #ffffff;
+	background-color: red;
+	height: 40px;
+	width: 100px;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.BTN3{
+	color: #ffffff;
+	background-color: red;
+	height: 50px;
+	width: 120px;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
